@@ -139,11 +139,35 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="book.cpp" />
+    <ClCompile Include="catalogcontainer.cpp" />
+    <ClCompile Include="checkout.cpp" />
+    <ClCompile Include="childrenbook.cpp" />
     <ClCompile Include="client.cpp" />
+    <ClCompile Include="command.cpp" />
+    <ClCompile Include="displaycatalog.cpp" />
+    <ClCompile Include="displayhistory.cpp" />
+    <ClCompile Include="factory.cpp" />
+    <ClCompile Include="fictionbook.cpp" />
+    <ClCompile Include="item.cpp" />
+    <ClCompile Include="periodical.cpp" />
+    <ClCompile Include="returnitem.cpp" />
     <ClCompile Include="SHHHLibrary.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="book.h" />
+    <ClInclude Include="catalogcontainer.h" />
+    <ClInclude Include="checkout.h" />
+    <ClInclude Include="childrenbook.h" />
     <ClInclude Include="client.h" />
+    <ClInclude Include="command.h" />
+    <ClInclude Include="displaycatalog.h" />
+    <ClInclude Include="displayhistory.h" />
+    <ClInclude Include="factory.h" />
+    <ClInclude Include="fictionbook.h" />
+    <ClInclude Include="item.h" />
+    <ClInclude Include="periodical.h" />
+    <ClInclude Include="returnitem.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
