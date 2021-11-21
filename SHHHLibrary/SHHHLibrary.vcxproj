@@ -150,7 +150,6 @@
     <ClCompile Include="factory.cpp" />
     <ClCompile Include="fictionbook.cpp" />
     <ClCompile Include="item.cpp" />
-    <ClCompile Include="library.cpp" />
     <ClCompile Include="periodical.cpp" />
     <ClCompile Include="returnitem.cpp" />
     <ClCompile Include="SHHHLibrary.cpp" />
@@ -167,7 +166,6 @@
     <ClInclude Include="factory.h" />
     <ClInclude Include="fictionbook.h" />
     <ClInclude Include="item.h" />
-    <ClInclude Include="library.h" />
     <ClInclude Include="periodical.h" />
     <ClInclude Include="returnitem.h" />
   </ItemGroup>
