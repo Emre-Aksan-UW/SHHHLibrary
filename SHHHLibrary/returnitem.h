@@ -5,7 +5,7 @@ using namespace std;
 class ReturnItem : Command
 {
 public:
-  ReturnItem();
+  ReturnItem(Library library, int id, Item item);
   ~ReturnItem();
   
   int id;
