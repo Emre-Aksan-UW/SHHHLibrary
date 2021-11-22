@@ -1,5 +1,6 @@
 #pragma once
-class fictionbook
+class FictionBook
 {
+  string author;
 };
 
