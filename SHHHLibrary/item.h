@@ -3,13 +3,10 @@
 #include <iomanip>
 
 using namespace std;
+// Item is a virtual class
 
 class Item {
 public:
-    Item();
-    Item (const Item&);
-
-    virtual ~Item();
     virtual void setData(istream& ) = 0;
     virtual void display() const = 0;        //display all items
     virtual void displayTitle() const = 0;
@@ -20,9 +17,5 @@ public:
     int getCatalog();
     int getOutOfCatalog();
     virtual bool operator==(const Item&) const = 0;
-
-private:
-    int maxCopyCount;
-    int currCopyCount;
 };
 

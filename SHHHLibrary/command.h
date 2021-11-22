@@ -1,14 +1,15 @@
 #pragma once
 #include "library.h"
-class command
+
+class Command
 {
   public:
     Command();
     Command(const Command&);
     ~Command();
   
-    void execute();
-    void setData();
+    virtual void execute();
+    virtual void setData();
   private:
     Library library;
     

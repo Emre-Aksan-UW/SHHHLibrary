@@ -1,16 +1,17 @@
 #pragma once
 #include "item.h"
+#include "command.h"
 using namespace std;
 
-class checkout
+class CheckOut : Command
 {
   public;
     CheckOut(Library library, int id, Item item);
     ~CheckOut();
+    
     int id;
     Item item;
-  
-  private:
-    void execute(int, Item)
+    
+    void execute(int, Item);
 };
 
