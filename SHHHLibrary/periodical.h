@@ -1,6 +1,10 @@
 #pragma once
-class Periodical
+class Periodical : Book
 {
-  int month;
+  public:
+    Periodical();
+    ~Periodical();
+  private:
+    int month;
 };
 
