@@ -1,5 +1,9 @@
 #pragma once
-class displaycatalog
+class DisplayCatalog
 {
+  public:
+    DisplayCatalog();
+    ~DisplayCatalog();
+    void execute();
 };
 
