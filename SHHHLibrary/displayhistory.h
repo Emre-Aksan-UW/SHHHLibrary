@@ -1,5 +1,7 @@
 #pragma once
-class DisplayHistory
+using namespace std;
+
+class DisplayHistory : public Command
 {
   public:
     DisplayHistory();
