@@ -1,4 +1,8 @@
 #pragma once
+include <iostream>
+include "command.h"
+include "item.h"
+using namespace std;    
 class Client
 {
     private:
