@@ -1,18 +1,30 @@
 #pragma once
-#include <string>
-#include client.h
-#include item.h
+#include "item.h"
+#include "client.h"
+// #include<iostream>
+// #include<iomanip>
+// #include <string>
 using namespace std;
 
-class Book : public Item
-{
-    public:
-        Book();
-        ~Book();
+class Book : public Item {
+public:
+    Book();
+    Book(const Book&);
+    ~Book();
 
-    private:
-        string title;
-        int year;
-        Client *client;
+    virtual void setData(istream&);
+    virtual void display() const;
+    virtual void displayTitle() const = 0;
+    virtual Item* getItem() const;
+    int getTitle();
+    int getYear();
+    Client* getClient();
+    virtual bool operator==(const Item&) const = 0;
+
+
+private:
+    string title;
+    int year;
+    Client *client;
 };
 
