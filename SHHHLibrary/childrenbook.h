@@ -1,5 +1,6 @@
 #pragma once
-class childrenbook
+class ChildrenBook
 {
+  string author;
 };
 
