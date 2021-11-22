@@ -2,7 +2,7 @@
 #include "item.h"
 using namespace std;
 
-class checkout
+class CheckOut
 {
   public;
     CheckOut(Library library, int id, Item item);
