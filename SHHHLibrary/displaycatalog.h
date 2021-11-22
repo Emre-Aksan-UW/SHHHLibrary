@@ -4,7 +4,7 @@ using namespace std;
 class DisplayCatalog : Command
 {
   public:
-    DisplayCatalog();
+    DisplayCatalog(Library library);
     ~DisplayCatalog();
     
     void execute();
