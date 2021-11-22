@@ -1,6 +1,14 @@
 #pragma once
+#include Book.h
+using namespace std;
+
 class FictionBook
 {
-  string author;
+  public:
+    FictionBook();
+    ~FictionBook();
+  
+  private:
+    string author;
 };
 
