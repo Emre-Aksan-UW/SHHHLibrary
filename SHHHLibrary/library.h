@@ -4,7 +4,6 @@
 #include "client.h"
 #include "catalogcontainer.h"
 #include "hashtable.h"
-#define MAX_CLIENTS 1000  //?
 #define MAX_ITEMS 1000    //?
 
 using namespace std;
