@@ -2,7 +2,9 @@
 class Client
 {
     public:
-    Client();
+    Client(istream& infile);
     ~Client();
+    
+    bool requestAction(Command command);
 };
 
