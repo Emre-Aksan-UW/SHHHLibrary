@@ -1,5 +1,7 @@
 #pragma once
-class DisplayCatalog
+using namespace std;
+
+class DisplayCatalog : public Command
 {
   public:
     DisplayCatalog();
