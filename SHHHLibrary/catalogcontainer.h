@@ -1,19 +1,18 @@
 #pragma once
-#iclude "item.h"
+#include "item.h"
 using namespace std;
 
-class CatalogContainer
-{
+class CatalogContainer {
   public:
     CatalogContainer();
-    ~CatalogContaienr();
+    ~CatalogContainer();
   
-    Item[] books;
+    // Item[] books;
   
     void checkOut(int);
     void returnItme(int);
     void displayAllBooks();
   
   private:
-    int hashIn(Item)
+    // int hashIn(Item)
 };
