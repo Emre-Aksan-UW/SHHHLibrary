@@ -1,5 +1,12 @@
 #pragma once
-class displayhistory
+class DisplayHistory
 {
+  public:
+    DisplayHistory();
+    ~DisplayHistory();
+  
+    int id;
+  
+    void execute();
 };
 
