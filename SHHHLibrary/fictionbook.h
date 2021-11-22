@@ -1,8 +1,8 @@
 #pragma once
-#include Book.h
+#include "Book.h"
 using namespace std;
 
-class FictionBook
+class FictionBook : public Book
 {
   public:
     FictionBook();
