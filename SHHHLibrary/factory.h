@@ -6,17 +6,14 @@
 
 class Factory {
 private:
-    Item* itemFactory[100];
-    Client* clientFactory[100];
+    Item* itemFactory[3];
     Command* commandFactory[4];
-    int itemHash (string str) const;
+    int itemHash (char ch) const;
     int commandHash(char ch) const;
-    int clientHash(int id) const;
 public:
     Factory();
     ~Factory();
-    Item* createItem(string str);
-    Client* createClient(int id);
+    Item* createItem(char ch);
     Command* createCommand(char ch);
 };
 
