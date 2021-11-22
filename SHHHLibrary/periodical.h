@@ -1,5 +1,6 @@
 #pragma once
-class periodical
+class Periodical
 {
+  int month;
 };
 
