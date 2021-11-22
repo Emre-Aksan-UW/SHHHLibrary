@@ -1,5 +1,6 @@
 #pragma once
-class item
-{
+class Item {
+    public:
+        virtual void Item() = 0;
 };
 
