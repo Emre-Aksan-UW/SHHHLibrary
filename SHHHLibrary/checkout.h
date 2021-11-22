@@ -6,7 +6,7 @@ using namespace std;
 class CheckOut : Command
 {
   public;
-    CheckOut();
+    CheckOut(Library library, int id, Item item);
     ~CheckOut();
     
     int id;
