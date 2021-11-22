@@ -1,4 +1,7 @@
 #pragma once
+#include "Item.h"
+#include "Command.h"
+
 class Factory {
 private:
     Item* itemFactory[3];
