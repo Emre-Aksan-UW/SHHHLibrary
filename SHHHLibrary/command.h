@@ -7,8 +7,8 @@ class command
     Command(const Command&);
     ~Command();
   
-    void execute();
-    void setData();
+    virtual void execute();
+    virtual void setData();
   private:
     Library library;
     
