@@ -9,8 +9,6 @@ class checkout
     ~CheckOut();
     int id;
     Item item;
-  
-  private:
-    void execute(int, Item)
+    void execute(int, Item);
 };
 
