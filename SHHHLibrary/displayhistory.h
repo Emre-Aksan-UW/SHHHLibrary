@@ -4,7 +4,7 @@ using namespace std;
 class DisplayHistory : Command
 {
   public:
-    DisplayHistory();
+    DisplayHistory(Library library, int id);
     ~DisplayHistory();
   
     int id;
