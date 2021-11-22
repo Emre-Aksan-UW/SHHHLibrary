@@ -1,8 +1,9 @@
 #pragma once
 #include "item.h"
+#include "command.h"
 using namespace std;
 
-class CheckOut
+class CheckOut : public Command
 {
   public;
     CheckOut(Library library, int id, Item item);
