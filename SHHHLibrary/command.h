@@ -1,6 +1,6 @@
 #pragma once
 #include "library.h"
-class command
+class Command
 {
   public:
     Command();
