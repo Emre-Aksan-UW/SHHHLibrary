@@ -3,13 +3,15 @@
 #include "command.h"
 using namespace std;
 
-class CheckOut : public Command
+class CheckOut : Command
 {
   public;
-    CheckOut(Library library, int id, Item item);
+    CheckOut();
     ~CheckOut();
+    
     int id;
     Item item;
+    
     void execute(int, Item);
 };
 
