@@ -2,13 +2,15 @@
 #include "command.h"
 using namespace std;
 
-class ReturnItem : public Command
+class ReturnItem : Command
 {
 public:
-  ReturnItem(Library library, int id, Item item);
+  ReturnItem();
   ~ReturnItem();
+  
   int id;
   Item item;
   
+  void execute();
 };
 
