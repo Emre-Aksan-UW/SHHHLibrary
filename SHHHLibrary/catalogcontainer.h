@@ -2,7 +2,7 @@
 #iclude "item.h"
 using namespace std;
 
-class catalogcontainer
+class CatalogContainer
 {
   public:
     CatalogContainer();
